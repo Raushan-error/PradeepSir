@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#060d1a] text-[#e6f1ff] m-0 overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(135deg, #ffd700 0%, #ff8c00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .glass-card {
+    background: rgba(17, 34, 64, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 215, 0, 0.1);
+  }
+  
+  .no-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .no-scrollbar::-webkit-scrollbar-track {
+    background: #020c1b; 
+  }
+  .no-scrollbar::-webkit-scrollbar-thumb {
+    background: #112240; 
+    border-radius: 4px;
+  }
+  .no-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #ffd700; 
+  }
+}
