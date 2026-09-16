@@ -5,38 +5,38 @@ import { Shield, Brain, Crown, Target, Users, Zap, ChevronLeft, ChevronRight, Pa
 const traits = [
   {
     icon: <Brain className="w-12 h-12 text-gold" />,
-    title: "The Visionary Mind",
-    desc: "Always seeing ten steps ahead. When others see a roadblock, Sir sees a launchpad. His strategic thinking transformed a small ₹20K investment into an empire.",
+    title: "Asli Visionary (दूरदर्शी सोच)",
+    desc: "Jahan sabko raasta band dikhta hai, wahan se inki nayi udaan shuru hoti hai. ₹20K ki shuruaat se empire tak—inka dimaag hamesha 10 kadam aage chalta hai!",
     color: "from-blue-500/20 to-purple-500/20"
   },
   {
     icon: <Users className="w-12 h-12 text-gold" />,
-    title: "A True Mentor",
-    desc: "He doesn't just hire employees; he builds leaders. 'Grow and Help Grow' is the heartbeat of Sigma IT, proving that real success is shared.",
+    title: "A True Mentor (सबका साथ)",
+    desc: "Sirf company nahi, inhone leaders banaye hain! 'Grow and Help Grow' inka asool hai. Asli kamyabi wahi hai jo sabke sath baanti jaye.",
     color: "from-green-500/20 to-emerald-500/20"
   },
   {
     icon: <Shield className="w-12 h-12 text-gold" />,
-    title: "Unbreakable Resilience",
-    desc: "Setbacks like early venture closures never stopped him. They only fueled the fire to come back stronger, wiser, and more determined.",
+    title: "Unstoppable Hustler (बाज़ीगर)",
+    desc: "Jo gir kar wapas uthna janta hai, wahi asli Baazigar hota hai! Pehla venture band hua toh kya? Wo haar nahi, ek bada lesson tha!",
     color: "from-red-500/20 to-orange-500/20"
   },
   {
     icon: <Zap className="w-12 h-12 text-gold" />,
-    title: "Relentless Hustle",
-    desc: "From a Sales Executive on the ground to the Director's chair, the work ethic has never changed. 200% effort, every single day.",
+    title: "Zero to Hero (मेहनत की मिसाल)",
+    desc: "Sales executive se lekar Director ki kursi tak! Din raat ki mehnat aur atoot vishwas dikhata hai ki hustle se kya kuch hasil nahi ho sakta.",
     color: "from-yellow-500/20 to-amber-500/20"
   },
   {
     icon: <Crown className="w-12 h-12 text-gold" />,
-    title: "Humble Leadership",
-    desc: "Despite massive success, he remains grounded. Always approachable, always listening, and always leading by example from the front lines.",
+    title: "Zameen Se Jude Leader (सादगी)",
+    desc: "Kitni bhi oonchai par pohoch jao, pair zameen par hi hain. Ek boss se zyada ek bade bhai ban kar guide karna inki sabse badi khoobi hai.",
     color: "from-pink-500/20 to-rose-500/20"
   },
   {
     icon: <Target className="w-12 h-12 text-gold" />,
-    title: "Laser Focus",
-    desc: "When a goal is set, nothing can distract him. The dedication to delivering excellence for over 100+ happy clients is unparalleled.",
+    title: "Arjun Jaisa Focus (लक्ष्य)",
+    desc: "Jab ek baar goal set kar liya, toh fir kisi ki nahi sunte! 100+ clients aur gajab ki growth ka raaz yahi atoot focus hai.",
     color: "from-cyan-500/20 to-blue-500/20"
   }
 ];
@@ -75,9 +75,9 @@ export const AboutSir = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-bold font-heading text-transparent bg-clip-text bg-gradient-to-r from-gold to-yellow-300 mb-6"
+          className="text-4xl md:text-5xl font-bold font-heading text-transparent bg-clip-text bg-gradient-to-r from-gold to-yellow-300 mb-6 leading-tight"
         >
-          The Man Behind the Empire
+          The Man Behind The Empire 👑
         </motion.h2>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
@@ -85,7 +85,7 @@ export const AboutSir = () => {
           viewport={{ once: true }}
           className="text-gray-400 text-lg md:text-xl"
         >
-          Take a moment to read what defines his leadership.
+          Ek aam shuruaat se ek behisaab kamyabi tak—janiye un asoolon ko jinhone is empire ko khada kiya hai!
         </motion.p>
       </div>
 

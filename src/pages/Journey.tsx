@@ -67,7 +67,7 @@ const timelineData = [
     desc: "Thank you for being the ultimate mentor, leader, and inspiration. Wishing you a very, very Happy Birthday! 🎂🎉",
     quote: "The journey is just getting started.",
     icon: <Star className="w-6 h-6 md:w-8 md:h-8" />,
-    img: "/pics/WhatsApp Image 2026-09-16 at 6.54.51 PM (8).jpeg"
+    img: "/pics/WhatsApp Image 2026-09-16 at 6.54.51 PM.jpeg"
   }
 ];
 
